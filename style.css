@@ -83,12 +83,36 @@ body {
 .gallery {
     display: flex;
     flex-direction: column;
+    padding: 30px 150px;
+    gap: 40px;
+
+}
+
+.gallery-header {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
 
 .cards {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .card {
-    max-width: 90px;
+    width: 150px;
+}
+
+.card-image{
+    width: 100%;
+    border: 5px solid #3882f6;
+    border-radius: 9px;
+}
+
+.subtext {
+    width: 100%;
+    text-align: center;
+    color: #1F2937;
 }
