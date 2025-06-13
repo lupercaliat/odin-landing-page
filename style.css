@@ -116,3 +116,66 @@ body {
     text-align: center;
     color: #1F2937;
 }
+
+.quote-section{
+    background-color: #E5E7EB;
+    padding: 140px 280px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    font-size: 25px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: right;
+}
+
+.ads-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 200px;
+}
+.ads-wrapper{
+    display:flex;
+    background-color: #3882f6;
+    padding: 40px 30px;
+    border-radius: 11px;
+    gap: 250px;
+
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: #3882f6;
+
+}
+
+.main-ads{
+    color:#E5E7EB;
+    font-weight: 900;
+    font-size: 120%;
+
+}
+
+.sub-ads{
+    color:#E5E7EB;
+}
+
+.signup-button2 {
+    border-radius: 10px;
+    background-color: transparent;
+    border: 3px solid white;
+    width: 120px;
+    height: 40px;
+    color: white;
+    font-size: 120%;
+    font-weight: 900;
+}   
