@@ -79,3 +79,16 @@ body {
     width: 120px;
     height: 40px;
 }
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+}
+
+.card {
+    max-width: 90px;
+}
